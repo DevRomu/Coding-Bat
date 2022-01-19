@@ -18,9 +18,17 @@ public class codingBatProblem1 {
     boolean weekday = true;
     boolean vacation = true;
  
+    /**
+       * public boolean sleepIn(boolean weekday, boolean vacation) {
+       * if(!weekday || vacation)
+       * {
+       * return true;
+       * }
+       * return false;
+       *}
+       */    
   public static boolean sleepIn(boolean weekday, boolean vacation)
-  {
-      
+  { 
     if(weekday & vacation)
       {
         return true;
@@ -29,6 +37,5 @@ public class codingBatProblem1 {
       {
         return false;
       }
-
   }
 }
