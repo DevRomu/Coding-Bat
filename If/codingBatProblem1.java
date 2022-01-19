@@ -1,3 +1,4 @@
+package If;
 /** 
  * Coding Bat warmup if and else statements 
  * Return false if the given string is sleepin
@@ -8,20 +9,26 @@
 
 public class codingBatProblem1 {
 
-  public static void main(String[] args) {
+  public static void main(String[] args)
+  {
+    System.out.println()
+   
+  }   
+    boolean sleepIn = false; 
+    boolean weekday = true;
+    boolean vacation = true;
+ 
+  public static boolean sleepIn(boolean weekday, boolean vacation)
+  {
+      
+    if(weekday & vacation)
+      {
+        return true;
+      }
+    else(!weekday & vacation)
+      {
+        return false;
+      }
 
-    public boolean sleepIn(boolean weekday, boolean vacation)
-    {
-      if(weekday & vacation)
-        {
-          System.out.println("On a Vacation");
-        }
-      else if(!weekday & vacation)
-        {
-          System.out.println("Sleeping In");
-        }
-    }
-        
   }
-
 }
