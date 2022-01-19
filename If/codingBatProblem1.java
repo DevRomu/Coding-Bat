@@ -19,6 +19,7 @@ public class codingBatProblem1 {
     boolean vacation = true;
  
     /**
+       *Actual Solution: 
        * public boolean sleepIn(boolean weekday, boolean vacation) {
        * if(!weekday || vacation)
        * {
