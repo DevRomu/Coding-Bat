@@ -14,14 +14,14 @@ public class codingBatProblem1 {
     {
       if(weekday & vacation)
         {
-          return true;
+          System.out.println("On a Vacation");
         }
       else if(!weekday & vacation)
         {
-          return false;
+          System.out.println("Sleeping In");
         }
     }
-        System.out.println(sleepIn);
+        
   }
 
 }
