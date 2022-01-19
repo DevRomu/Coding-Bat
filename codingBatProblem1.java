@@ -10,17 +10,18 @@ public class codingBatProblem1 {
 
   public static void main(String[] args) {
 
-    public boolean sleepIn(boolean weekday, boolean vacation){
-        if(weekday & vacation){
-        return true;
+    public boolean sleepIn(boolean weekday, boolean vacation)
+    {
+      if(weekday & vacation)
+        {
+          return true;
         }
-        else if(!weekday & vacation){
-            
+      else if(!weekday & vacation)
+        {
+          return false;
         }
-      
+    }
         System.out.println(sleepIn);
-      }
-        
   }
 
 }
