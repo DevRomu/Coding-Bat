@@ -11,7 +11,7 @@ public class codingBatProblem1 {
 
   public static void main(String[] args)
   {
-    System.out.println()
+    System.out.println(sleepIn(weekday, vacation))
    
   }   
     boolean sleepIn = false; 
