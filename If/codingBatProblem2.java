@@ -7,25 +7,25 @@ package If;
  * @author DevRomu
  * @version 1.0.0
  */
-public class codingBatProblem1 {
+public class codingBatProblem2 {
   public static void main(String[] args)
   {
-    boolean sleepIn = false; 
-    boolean weekday = true;
-    boolean vacation = true;
+    boolean aSmile = true; 
+    boolean bsmile = false;
+    
     
     // TODO: Code all the unit tests detailed on CodingBat.
-    System.out.println(sleepIn(weekday, vacation));
+    System.out.println(monkeyTrouble(aSmile, bsmile));
   }
  
-  /**
-   * TODO: JavaDoc
-   *
-   * @param weekday
-   * @param weekday
-   * @return 
-   */
-  public static boolean sleepIn(boolean weekday, boolean vacation)
+ /**
+  * TODO: JavaDoc
+  
+  * @param aSmile
+  * @param bsmile
+  * @return
+  */
+  public static boolean monkeyTrouble(boolean aSmile, boolean bsmile)
   { 
     if(!weekday || vacation)
     {
