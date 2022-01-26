@@ -1,4 +1,3 @@
-package If;
 
 /** 
  * Coding Bat warmup if and else statements.
@@ -11,23 +10,27 @@ public class codingBatProblem2 {
   public static void main(String[] args)
   {
     boolean aSmile = true; 
-    boolean bsmile = false;
+    boolean bSmile = false;
     
     
     // TODO: Code all the unit tests detailed on CodingBat.
-    System.out.println(monkeyTrouble(aSmile, bsmile));
+    System.out.println(monkeyTrouble(aSmile, bSmile));
   }
  
  /**
   * TODO: JavaDoc
-  
+
   * @param aSmile
-  * @param bsmile
+  * @param bSmile
   * @return
   */
-  public static boolean monkeyTrouble(boolean aSmile, boolean bsmile)
+  public static boolean monkeyTrouble(boolean aSmile, boolean bSmile)
   { 
-    if(!weekday || vacation)
+    if(aSmile && bSmile)
+    {
+      return true;
+    }
+    if(!aSmile && bSmile)
     {
       return true;
     }
