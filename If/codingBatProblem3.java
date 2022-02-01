@@ -23,11 +23,16 @@ public class codingBatProblem3 {
   * @param a
   * @param b
   */
-  public static void sumDouble(int a, int b)
+  public static void int sumDouble(int a, int b)
   { 
-    if( int a && int b )
+    
+    if(  a &&  b )
+    {
+      sumDouble == a * b; 
+    }
+    else()
     {
 
-    }
+    } 
   }
 }
