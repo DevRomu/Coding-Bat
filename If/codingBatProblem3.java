@@ -6,7 +6,7 @@
  * @author DevRomu
  * @version 1.0.0
  */
-public class codingBatProblem2 {
+public class codingBatProblem3 {
   public static void main(String[] args)
   {
     boolean aSmile = true; 
@@ -14,26 +14,20 @@ public class codingBatProblem2 {
     
     
     // TODO: Code all the unit tests detailed on CodingBat.
-    System.out.println(monkeyTrouble(aSmile, bSmile));
+    System.out.println(sumDouble(a, b));
   }
  
  /**
   * TODO: JavaDoc
 
-  * @param aSmile
-  * @param bSmile
-  * @return
+  * @param a
+  * @param b
   */
-  public static boolean monkeyTrouble(boolean aSmile, boolean bSmile)
+  public static void sumDouble(int a, int b)
   { 
-    if(aSmile && bSmile)
+    if()
     {
-      return true;
+      
     }
-    if(!aSmile && bSmile)
-    {
-      return true;
-    }
-      return false;
   }
 }
