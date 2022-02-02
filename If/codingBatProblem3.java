@@ -14,7 +14,7 @@ public class codingBatProblem3 {
     
     
     // TODO: Code all the unit tests detailed on CodingBat.
-    System.out.println(sumDouble(a, b));
+    System.out.println(sumDouble());
   }
  
  /**
@@ -23,16 +23,17 @@ public class codingBatProblem3 {
   * @param a
   * @param b
   */
-  public static void int sumDouble(int a, int b)
+  public static int sumDouble()
   { 
-    
-    if(  a &&  b )
-    {
-      sumDouble == a * b; 
-    }
-    else()
-    {
+    int sum = a + b;
 
+    if( a == b)
+    {
+      sum = sum * 2;
+    }
+    else
+    {
+      return sum; 
     } 
   }
 }
