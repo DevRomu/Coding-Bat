@@ -7,12 +7,11 @@
  * @version 1.0.0
  */
 public class codingBatProblem3 {
+  private static int b;
+  private static int a;
+
   public static void main(String[] args)
   {
-    boolean aSmile = true; 
-    boolean bSmile = false;
-    
-    
     // TODO: Code all the unit tests detailed on CodingBat.
     System.out.println(sumDouble());
   }
@@ -22,12 +21,13 @@ public class codingBatProblem3 {
 
   * @param a
   * @param b
+ * @return 
   */
-  public static int sumDouble()
+  public static boolean sumDouble()
   { 
     int sum = a + b;
 
-    if( a == b)
+    if(a == b)
     {
       sum = sum * 2;
     }
